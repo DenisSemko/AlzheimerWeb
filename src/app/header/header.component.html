@@ -9,7 +9,7 @@
         <div fxLayout="row" fxShow="false" fxShow.gt-sm>
         <ng-container *ngFor="let language of languageList">
             <a href="/{{language.code}}/">
-                <button mat-button (click)="change()">
+                <button mat-button>
                     {{language.label}}
                 </button>
             </a> 
