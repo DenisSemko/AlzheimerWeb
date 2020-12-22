@@ -8,11 +8,11 @@
         </span>
         <div fxLayout="row" fxShow="false" fxShow.gt-sm>
         <ng-container *ngFor="let language of languageList">
-            <!--<a href="/{{language.code}}/"> -->
+            <a href="/{{language.code}}/">
                 <button mat-button (click)="change()">
                     {{language.label}}
                 </button>
-            <!--</a> -->
+            </a> 
         </ng-container>
         <!-- <ng-container>
             <button mat-button>
