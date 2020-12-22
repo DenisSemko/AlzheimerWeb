@@ -1,0 +1,130 @@
+
+
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center"> 
+    <mat-card class="box">
+        <mat-card-header>
+          <mat-card-title i18n>MINI-MENTAL STATE EXAMINATION</mat-card-title>
+        </mat-card-header>
+        <hr>
+        <h3 i18n>It is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment.</h3>
+        <hr>
+        <br>
+        <form class="example-form" [formGroup]="service.formModel" (submit)="onSubmit()" autocomplete="off">
+
+            <mat-card-content>
+              <div fxFlex="100%">
+                  <label i18n>What is the ?</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Year as a number" formControlName="YearQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <br>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Season" formControlName="SeasonQuestion" required i18n-placeholder>
+              </mat-form-field>
+            <br>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Day as a number" formControlName="DayQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Month as a number" formControlName="MonthQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput [matDatepicker]="picker" formControlName="DateQuestion" required placeholder="Date" i18n-placeholder>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+              <label i18n>Where are we now ?</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Country" formControlName="CountryQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Region" formControlName="RegionQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="City" formControlName="CityQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Home Address" formControlName="HomeAddressQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input type="number" matInput placeholder="Number of the building" formControlName="NumberBuildingQuestion" required i18n-placeholder>
+              </mat-form-field>
+              <label i18n>Name 3 unrelated objects and remember them for later</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="First object" formControlName="FirstObject" i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width" >
+                <input matInput placeholder="Second object" formControlName="SecondObject" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Third object" formControlName="ThirdObject" required i18n-placeholder>
+              </mat-form-field>
+              <label i18n>Count backward from 100 by sevens</label>
+              <mat-form-field class="example-full-width">
+                <input type="number" matInput placeholder="First number" formControlName="FirstCount" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input type="number" matInput placeholder="Second number" formControlName="SecondCount" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input type="number" matInput placeholder="Third number" formControlName="ThirdCount" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input type="number" matInput placeholder="Fourth number" formControlName="FourthCount" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input type="number" matInput placeholder="Fifth number" formControlName="FifthCount" required i18n-placeholder>
+              </mat-form-field>
+              <label i18n>Name the three things asked to remember earlier</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="First object" formControlName="IsFirstObject" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Second object" formControlName="IsSecondObject" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Third object" formControlName="IsThirdObject" required i18n-placeholder>
+              </mat-form-field>
+              <label i18n> Name two things that you use for writing</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="First object" formControlName="FirstShownObject" required i18n-placeholder>
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Second object" formControlName="SecondShownObject" required i18n-placeholder>
+              </mat-form-field>
+              <label i18n>Repeat the phrase "No ifs, ands, or buts"</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Repeat Phrase" formControlName="RepeatPhrase" required i18n-placeholder>
+              </mat-form-field>
+              <label i18n>Follow next instructions:</label>
+              <br>
+              <mat-checkbox [checked]="false" formControlName="FirstTask" i18n>Take the paper in your right hand</mat-checkbox>
+              <br>
+              <mat-checkbox [checked]="true" formControlName="SecondTask" i18n>Fold it in half</mat-checkbox>
+              <br>
+              <mat-checkbox formControlName="ThirdTask" i18n>Put it on the floor</mat-checkbox>
+              <br><br>
+              <label>Do the next:</label>
+              <br>
+              <mat-checkbox formControlName="FourthTask" i18n>Close your eyes</mat-checkbox>
+              <br><br>
+              <label i18n>Make up and write a sentence about anything with the length of 5 words</label>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Sentence" formControlName="WriteSentence" required i18n-placeholder>
+              </mat-form-field>
+              <br><br>
+              <label i18n>Please copy this picture</label>
+              <br>
+              <div style="text-align: center;">
+                <img src='http://mmse.neurol.ru/img/mmse_pentagons.svg'>
+              </div>
+              <br>
+              <mat-checkbox formControlName="DrawPicture" i18n>Picture has been successfully drawn</mat-checkbox>
+              </div>
+            </mat-card-content>
+      
+            <button mat-stroked-button color="accent" class="btn-block" i18n>Submit</button>
+          </form>
+    </mat-card>
+</div>
+

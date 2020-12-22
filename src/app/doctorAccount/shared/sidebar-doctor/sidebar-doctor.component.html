@@ -1,0 +1,37 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <label class="hoverable" for="fileInput">
+            <img [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
+            <div class="hover-text">Choose file</div>
+            <div class="background"></div>
+          </label>
+          <br/>
+          <input id="fileInput" type="file" (change)="OnSelectFile($event)">
+        <div class="header" *ngIf="userDetails">
+            <h3>Name: {{userDetails.name}} {{userDetails.surname}}</h3>
+            <h3>Username: {{userDetails.userName}}</h3>
+            <h3>Email: {{userDetails.email }}</h3>
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>My Activity</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="patients-list">
+        <mat-icon>description</mat-icon>
+        Patients</a>
+    <a mat-list-item routerLinkActive="list-item-active"><mat-icon>done</mat-icon>
+        Notes</a>
+
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Pages2</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+    <mat-icon>import_contacts</mat-icon>
+    Page1
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <mat-icon>import_contacts</mat-icon>
+        Page2
+    </a>
+
+</mat-nav-list>
+

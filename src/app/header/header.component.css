@@ -1,0 +1,43 @@
+.nav {
+	width: 100%;
+    z-index: 9;
+    background-color: #7c7e80;
+    justify-content: space-between;
+    align-items: right;
+}
+.logo
+{
+    height: 35px;
+	width: 35px;
+	border: none;
+
+}
+
+
+.imgLogo:hover
+{
+	cursor: default;
+	text-decoration: none;
+	outline: none;
+	color: #8b4747;
+}
+.about:hover, .statistics:hover, .contact:hover, .reg:hover, .log:hover{
+	color: #8b4747;
+}
+.about, .statistics, .contact, .reg, .log{
+	font-family: "Lucida Sans Typewriter";
+	font-size: 65%;
+	cursor: pointer;
+	padding: 0px 10px;
+  	word-wrap: normal;
+  	display: inline-block;
+}
+
+a:visited {
+	color: rgb(45, 49, 66);
+	text-decoration: none;
+  }
+  a:link {
+	text-decoration: none;
+	color: rgb(45, 49, 66);
+  }

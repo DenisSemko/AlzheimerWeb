@@ -1,0 +1,37 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <label class="hoverable" for="fileInput">
+            <img [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
+            <div class="hover-text">Choose file</div>
+            <div class="background"></div>
+          </label>
+          <br/>
+          <input id="fileInput" type="file" (change)="OnSelectFile($event)">
+        <div class="header" *ngIf="userDetails">
+            <h3 i18n>Name: {{userDetails.name}} {{userDetails.surname}}</h3>
+            <h3 i18n>Username: {{userDetails.userName}}</h3>
+            <h3 i18n>Email: {{userDetails.email }}</h3>
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader i18n>My Activity</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/patient/mmse" i18n>
+        <mat-icon>description</mat-icon>
+        MMSE Test</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/patient/mmse-result" i18n><mat-icon>done</mat-icon>
+        MMSE Test Result</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/" i18n>Courses</a>
+
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Pages2</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+    <mat-icon>import_contacts</mat-icon>
+    Page1
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <mat-icon>import_contacts</mat-icon>
+        Page2
+    </a>
+
+</mat-nav-list>

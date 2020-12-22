@@ -1,0 +1,29 @@
+.features {
+	padding-top: 60px
+}
+.features h1 {
+    text-align: center;
+}
+.features .row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.features .row .column {
+	width: 33%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.features .row .column:hover {
+	background-color: #dfe4ea;
+	cursor: pointer
+}
+
+.features .row .column p {
+	padding: 0 10px
+}

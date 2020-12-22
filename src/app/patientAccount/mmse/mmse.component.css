@@ -1,0 +1,95 @@
+mat-card-title{
+    font-family: "Century Gothic";
+    text-align: center;
+  }
+h3{
+    font-family: "Century Gothic";
+}
+label{
+    font-family: "Caveat";
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+hr{
+    background-color: rgb(228, 6, 6);
+}
+.box{
+    position: relative;
+    top: 0;
+    opacity: 1;
+    float: left;
+    padding: 60px 50px 40px 50px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    z-index: 5;
+    max-width: 330px;
+    margin: 200px 500px;
+}
+.box.back {
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -ms-transform: scale(.95);
+    top: -20px;
+    opacity: .8;
+    z-index: -1;
+  }
+  .box:before {
+    content: "";
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: -10px;
+    background: rgba(255, 255, 255, .6);
+    left: 0;
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -ms-transform: scale(.95);
+    z-index: -1;
+  }
+  .login-wrapper{
+    height: 2500px;
+  }
+  .login-wrapper .example-form {
+    min-width: 100%;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .login-wrapper .example-full-width,
+  .login-wrapper .btn-block {
+    width: 100%;
+  }
+  .btn-block-an{
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  .login-wrapper mat-card-header {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: 700;
+  }
+  
+  .login-wrapper .mat-card {
+    padding: 40px 70px 50px;
+  }
+  
+  .login-wrapper .mat-stroked-button {
+    border: 1px solid currentColor;
+    line-height: 54px;
+    background: #FFF7FA;
+  }
+  .login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0.8375em 0;
+  }
+  #toast-container > div {
+    opacity:1;
+  }

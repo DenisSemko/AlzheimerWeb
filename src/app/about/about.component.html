@@ -1,0 +1,35 @@
+<div class="silder">
+  <div class="silder-content">
+    <h1>MindCare</h1>
+  </div>
+</div>
+
+<div class="features">
+    <h1 i18n>About</h1>
+    <div class="row">
+      <div class="column">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">question_answer</mat-icon>
+        <h3 i18n>What is Alzheimer’s Disease?</h3>
+        <p i18n>Alzheimer's is a type of dementia that affects memory, thinking and behavior. Symptoms eventually grow severe enough to interfere with daily tasks.
+        </p>
+      </div>
+      <div class="column">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">medical_services</mat-icon>
+        <h3 i18n>What is the purpose? </h3>
+        <p i18n>Our service is about helping the Alzheimer's people to spend their lives without any fear. All features are made for observing and controlling the situation to be sure that everything goes in a good way. 
+        </p>
+      </div>
+      <div class="column">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+        <h3 i18n>What we suggest?</h3>
+        <p i18n>We provide several features for observing patients and training courses for brain. You may check the whole information using this link: 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="main" *ngIf="userTestDetails">
+    <h3 i18n>Score: {{ userTestDetails.score }}</h3>
+    <h3 i18n>Description: {{ userTestDetails.description }}</h3>
+</div>

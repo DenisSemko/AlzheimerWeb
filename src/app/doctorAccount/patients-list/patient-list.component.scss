@@ -1,0 +1,49 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+mat-drawer{
+    width: 350px;
+}
+
+mat-drawer-container{
+    height: 100%;
+}
+mat-drawer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.w-75{
+    width: 75px;
+}
+
+.w-100{
+    width: 100px;
+}
+.th-center{
+    text-align: center;
+}
+.th-left{
+    text-align: left;
+}
+.th-right{
+    text-align: right;
+}
+.my-table{
+    width: 1000px;
+    height: 300px;
+}
+a {
+    cursor: pointer;
+}
+a:visited {
+	color: rgb(45, 49, 66);
+	text-decoration: none;
+  }
+  a:link {
+	text-decoration: none;
+	color: rgb(45, 49, 66);
+  }

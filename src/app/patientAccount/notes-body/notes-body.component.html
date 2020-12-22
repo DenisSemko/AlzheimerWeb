@@ -1,0 +1,29 @@
+  <div class="container" fxLayout="row" fxLayoutAlign="center center">
+    <div class="row">
+      <div class="col-mat-6 offset-mat-3">
+          <mat-card>
+              <form #noteForm='ngForm' class="example-form" (submit)="onSubmit(noteForm)">
+                <mat-card-content>
+                    <div>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Title</mat-label>
+                        <input matInput name="title" [ngModel]="note.title" required>
+                    </mat-form-field>
+                    </div>
+                    <div>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Body</mat-label>
+                        <textarea matInput name="body" [ngModel]="note.body" required></textarea>
+                    </mat-form-field>
+                    </div>
+                </mat-card-content>
+                <div class="buttons">
+                    <button mat-stroked-button color="warn" class="btn-block" (click)="cancel()">Cancel</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button mat-stroked-button color="accent" class="btn-block" [disabled]="!noteForm.valid">Save</button>
+                </div>
+            </form>
+          </mat-card>
+        </div>
+      </div>  
+  </div>

@@ -1,0 +1,49 @@
+.silder {
+	background-image: url("/assets/img/bg-3.jpeg");
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	opacity: .9
+}
+.silder h1 {
+	color: #fff;
+	margin: auto;
+	font-size: 50px;
+	font-family: "Century Gothic";
+}
+.silder .silder-content {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	height: 100%;
+	width: 100%
+}
+.features {
+	padding-top: 60px
+}
+.features h1 {
+    text-align: center;
+}
+.features .row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.features .row .column {
+	width: 33%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.features .row .column:hover {
+	background-color: #dfe4ea;
+	cursor: pointer
+}
+
+.features .row .column p {
+	padding: 0 10px
+}

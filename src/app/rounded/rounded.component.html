@@ -1,0 +1,30 @@
+<app-header></app-header>
+<div class="silder">
+  <div class="silder-content">
+    <h1>Get to know more</h1>
+  </div>
+</div>
+
+<div class="features">
+  <h1>The statistics about Alzheimer's Disease</h1>
+  <div class="row">
+    <div class="column">
+      <mat-icon aria-hidden="false" aria-label="Example home icon">info</mat-icon>
+      <h3 i18n>What is important to know?</h3>
+      <p i18n>Worldwide, nearly 60 million people have Alzheimer’s or related dementia. The common age begins from 65 years old. <br> Below you can see the percentage of cases based on the age.
+      </p>
+    </div>
+  </div>
+</div>
+<div echarts [options]="options" class="demo-chart"
+  (chartInit)="onChartEvent($event, 'chartInit')"
+  (chartClick)="onChartEvent($event, 'chartClick')"
+  (chartDblClick)="onChartEvent($event, 'chartDblClick')"
+  (chartMouseDown)="onChartEvent($event, 'chartMouseDown')"
+  (chartMouseUp)="onChartEvent($event, 'chartMouseUp')"
+  (chartMouseOver)="onChartEvent($event, 'chartMouseOver')"
+  (chartMouseOut)="onChartEvent($event, 'chartMouseOut')"
+  (chartGlobalOut)="onChartEvent($event, 'chartGlobalOut')"
+  (chartContextMenu)="onChartEvent($event, 'chartContextMenu')"
+  (chartDataZoom)="onChartEvent($event, 'chartDataZoom')">
+</div>

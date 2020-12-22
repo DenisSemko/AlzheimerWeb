@@ -1,0 +1,19 @@
+<div class="dashboard" >
+    <form class="example-form" #form = 'ngForm'>
+        <mat-form-field class="example-full-width">
+            <mat-label>Filter</mat-label>
+            <input matInput #filterInput class="input" type="text" (keyup)="filter($event.target.value)" >
+        </mat-form-field>
+    </form>
+
+    <div class="notes-list">
+        <!-- note-card: -->
+        <app-notes-list *ngFor="let note of filteredNotes; index as i" [link]="generateNoteUrl(note)" (delete)="deleteNote(note)" [title]="note.title" [body]="note.body"></app-notes-list>
+    </div>
+
+    <button mat-stroked-button class="add-note-button" routerLink="note/new" routerLinkActive="active">Add Note</button>
+</div>
+        
+
+    
+                  

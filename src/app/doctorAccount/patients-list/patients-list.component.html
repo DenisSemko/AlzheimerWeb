@@ -1,0 +1,60 @@
+<mat-drawer-container>
+    <mat-drawer-content>
+        <div class="container text-center">
+
+            <button mat-raised-button  (click)="openDialog('Add',{})">
+                <mat-icon>add</mat-icon>Add Patient
+              </button>
+              <br>
+            <table mat-table [dataSource]="dataSource" #mytable class="my-table mat-elevation-z8">
+          
+            <ng-container matColumnDef="id">
+                <th class="w-100 th-left" mat-header-cell *matHeaderCellDef> ID patient's card</th>
+                <td class="w-100 th-left" mat-cell *matCellDef="let element">{{element.id}}</td>
+            </ng-container>  
+              <ng-container matColumnDef="firstName">
+                <th class="w-100 th-center" mat-header-cell *matHeaderCellDef> First Name </th>
+                <td class="w-100 th-center" mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="surname">
+                <th class="w-100 th-center" mat-header-cell *matHeaderCellDef> Surname </th>
+                <td class="w-100 th-center" mat-cell *matCellDef="let element"> {{element.surname}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="username">
+                <th class="w-100 th-center" mat-header-cell *matHeaderCellDef> Username </th>
+                <td class="w-100 th-center" mat-cell *matCellDef="let element"> {{element.username}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="email">
+                <th class="w-100 th-center" mat-header-cell *matHeaderCellDef> Email </th>
+                <td class="w-100 th-center" mat-cell *matCellDef="let element"> {{element.email}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="password">
+                <th class="w-100 th-center" mat-header-cell *matHeaderCellDef> Password </th>
+                <td class="w-100 th-right" mat-cell *matCellDef="let element"> {{element.password}} </td>
+              </ng-container>
+              <ng-container matColumnDef="diagnosis">
+                <th class="w-100 th-center" mat-header-cell *matHeaderCellDef> Diagnosis </th>
+                <td class="w-100 th-right" mat-cell *matCellDef="let element"> {{element.diagnosis}} </td>
+              </ng-container>
+          
+              <ng-container matColumnDef="action">
+                <th class="w-100 th-right" mat-header-cell *matHeaderCellDef> Action </th>
+                <td class="w-100 th-right" mat-cell *matCellDef="let element"> 
+                  <button mat-icon-button (click)="openDialog('Update',element)"><mat-icon>launch</mat-icon></button>
+                  <button mat-icon-button color="warn" (click)="openDialog('Delete',element)"><mat-icon>delete_outline</mat-icon></button>  
+                </td>
+              </ng-container>
+          
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          
+          </div>
+
+    </mat-drawer-content>
+</mat-drawer-container>
+

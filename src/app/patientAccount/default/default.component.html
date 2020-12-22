@@ -1,0 +1,13 @@
+<app-header-patient (toggleSideBarForMe)="sideBarToggler($event)"></app-header-patient>
+
+<mat-drawer-container>
+    <mat-drawer mode="side" [opened]="sideBarOpen">
+        <app-sidebar-patient></app-sidebar-patient>
+    </mat-drawer>
+    <mat-drawer-content>
+        
+        <router-outlet></router-outlet>
+
+    </mat-drawer-content>
+</mat-drawer-container>
+<app-footer-patient></app-footer-patient>

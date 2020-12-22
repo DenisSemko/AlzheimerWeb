@@ -1,0 +1,34 @@
+<app-header></app-header>
+<br>
+<br>
+<br>
+<h1 i18n>Contact Us</h1>
+  <div class="content">
+    <form>
+      <mat-form-field>
+        <input matInput placeholder="Name" autocomplete="off" required i18n-placeholder>
+        <mat-icon matSuffix>person</mat-icon>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Enter your email" autocomplete="off" required i18n-placeholder>
+        <mat-icon matSuffix>drafts</mat-icon>
+      </mat-form-field>
+      <mat-form-field>
+        <input type="tel" matInput placeholder="Telephone" autocomplete="off" required i18n-placeholder>
+        <mat-icon matSuffix>call</mat-icon>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Subject" autocomplete="off" required i18n-placeholder>
+        <mat-icon matSuffix>create</mat-icon>
+      </mat-form-field>
+      <mat-form-field>
+        <textarea matInput placeholder="Details" autocomplete="off" required i18n-placeholder></textarea>
+        <mat-icon matSuffix>save</mat-icon>
+      </mat-form-field>
+      <button mat-raised-button class="btn-custom" i18n>Send Now<i class="material-icons">
+          send
+        </i></button>
+    </form>
+  </div>
+  <br><br><br>
+  <app-footer></app-footer>

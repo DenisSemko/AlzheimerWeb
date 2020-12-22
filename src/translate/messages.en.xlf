@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="92538de0e2f6e64f1d05291132b93c32bed81237" datatype="html">
+        <source>STATISTICS</source>
+        <target>STATISTICS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fdbe66d92e5382bb70088c9e8ea6baf47b83d7b6" datatype="html">
+        <source>CONTACT</source>
+        <target>CONTACT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="731c617d6bf265e501eec37fb488ecdb86ba5612" datatype="html">
+        <source>REGISTRATION</source>
+        <target>REGISTRATION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e58dfa6c0a452d8333674cd6aa497d392b1c633" datatype="html">
+        <source>LOGIN</source>
+        <target>LOGIN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f842321db9246b564ab414a06be6f9a92cbeb70" datatype="html">
+        <source>What is important to know?</source>
+        <target>What is important to know?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/rounded/rounded.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="10a9f1e87be13afa5ff647abf8c5a3ad82121940" datatype="html">
+        <source>Worldwide, nearly 60 million people have Alzheimer’s or related dementia. The common age begins from 65 years old. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> Below you can see the percentage of cases based on the age. </source>
+        <target>Worldwide, nearly 60 million people have Alzheimer’s or related dementia. The common age begins from 65 years old. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> Below you can see the percentage of cases based on the age. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/rounded/rounded.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b6a252e03460d81483bcf24486f536ca40b90c7a" datatype="html">
+        <source>What about the future?</source>
+        <target>What about the future?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-chart/loading-chart.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12ba1d48e2d538c2521ed79273e9c71e6039f8cb" datatype="html">
+        <source>There is a huge difference in the level of medicine in countries. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> Below you can see the number of people in millions with dementia in low and middle income countries compared to high income countries. </source>
+        <target>There is a huge difference in the level of medicine in countries. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> Below you can see the number of people in millions with dementia in low and middle income countries compared to high income countries.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/loading-chart/loading-chart.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8cf84e2ffd884788ef69b5c68b299d09b0d535ad" datatype="html">
+        <source>Copyright © Denis Semko 2020</source>
+        <target>Copyright © Denis Semko 2020</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <target>Contact Us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9e4cf9eeb85c466d32b89f8572e8cce0081eb1b" datatype="html">
+        <source>Enter your email</source>
+        <target>Enter your email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4753d99682179b036b9704d4c3b758103e25db2" datatype="html">
+        <source>Telephone</source>
+        <target>Telephone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b0ca852bafa5037c4e64c7b18f9cd1e14b799de" datatype="html">
+        <source>Subject</source>
+        <target>Subject</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
+        <source>Details</source>
+        <target>Details</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eaefc7fc8ed3d12f9bbbe5d1380f3a5dad82be2c" datatype="html">
+        <source>Send Now<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="=&quot;btn-custom&quot; i18n&gt;Send Now&lt;i class=&quot;"/> send <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="s&quot;&gt;
+"/></source>
+<target>Send Now<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="=&quot;btn-custom&quot; i18n&gt;Send Now&lt;i class=&quot;"/> send <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="s&quot;&gt;
+"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-us/contact-us.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f093d9574ab746b231504bd2cbb65f04bd7b00db" datatype="html">
+        <source>Log in</source>
+        <target>Log in</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08c74dc9762957593b91f6eb5d65efdfc975bf48" datatype="html">
+        <source>Username</source>
+        <target>Username</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <target>Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c43855d854702051ef9d83cd998d5c9f06954aa9" datatype="html">
+        <source>Don&apos;t have an account yet? Go to Registration Page!</source>
+        <target>Don&apos;t have an account yet? Go to Registration Page!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <target>About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19fbc48a62228f9499bed3796db0f2758ea8b7a2" datatype="html">
+        <source>What is Alzheimer’s Disease?</source>
+        <target>What is Alzheimer’s Disease?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="586e5e84d86c5745b66134b881e329cacc572680" datatype="html">
+        <source>Alzheimer&apos;s is a type of dementia that affects memory, thinking and behavior. Symptoms eventually grow severe enough to interfere with daily tasks. </source>
+        <target>Alzheimer&apos;s is a type of dementia that affects memory, thinking and behavior. Symptoms eventually grow severe enough to interfere with daily tasks.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0de3e4d1ca5bbc138d962f616f84e93c5c688cab" datatype="html">
+        <source>What is the purpose? </source>
+        <target>What is the purpose?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d69a9d506840c351bba5027f40a9226a45c203ae" datatype="html">
+        <source>Our service is about helping the Alzheimer&apos;s people to spend their lives without any fear. All features are made for observing and controlling the situation to be sure that everything goes in a good way. </source>
+        <target>Our service is about helping the Alzheimer&apos;s people to spend their lives without any fear. All features are made for observing and controlling the situation to be sure that everything goes in a good way.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="365e584b2795b8447b643be8bca32240228ccb4e" datatype="html">
+        <source>What we suggest?</source>
+        <target>What we suggest?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d6ddc8e271d3d0426af0a4b0847a1a7375dfb30d" datatype="html">
+        <source>We provide several features for observing patients and training courses for brain. You may check the whole information using this link: </source>
+        <target>We provide several features for observing patients and training courses for brain. You may check the whole information using this link:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cfc2f436ec2beffb042e7511a73c89c372e86a6c" datatype="html">
+        <source>Register</source>
+        <target>Register</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e5ac183bc4cf80f01cde3ff96207b11464a4295" datatype="html">
+        <source>Surname</source>
+        <target>Surname</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff8d7ce499050f70f4284b1bd8970c80dd70343f" datatype="html">
+        <source>Choose a role...</source>
+        <target>Choose a role...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67f78a0eea2b65550bc76d286febbe2328f67081" datatype="html">
+        <source> Relative / Doctor </source>
+        <target> Relative / Doctor </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a2113f69c34e60a1309a54a440e99c8dadce06f" datatype="html">
+        <source> Patient </source>
+        <target> Patient </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de777cf8c7794631887be1e768b0f7178a0bdab5" datatype="html">
+        <source>Already have an account? Go to Login Page!</source>
+        <target> Already have an account? Go to Login Page! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/registration/registration.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d32a3484a3f4bb96f8ac7303190523acc7f1dc55" datatype="html">
+        <source>MINI-MENTAL STATE EXAMINATION</source>
+        <target> MINI-MENTAL STATE EXAMINATION </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="557062ae3d05ce445e4e320f86e51f09009f2021" datatype="html">
+        <source>It is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment.</source>
+        <target> It is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd0d74afecac58b123fb2ab1c92fa939d2c85b4f" datatype="html">
+        <source>What is the ?</source>
+        <target>What is the ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc81dda13e9ce7a26bd2bde9ecde7b48a69c558f" datatype="html">
+        <source>Year as a number</source>
+        <target>Year as a number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c16411bc4df280fa27d2338ce3bff30788a8860c" datatype="html">
+        <source>Season</source>
+        <target>Season</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44500d2f03c0f8fcdcded08eed201c4823978dc9" datatype="html">
+        <source>Day as a number</source>
+        <target>Day as a number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12783f29605d70c21c05c1f2dc06d02a93b33c5d" datatype="html">
+        <source>Month as a number</source>
+        <target>Month as a number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
+        <source>Date</source>
+        <target>Date</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73bf7b5c53c79155810949384c062303f64497b6" datatype="html">
+        <source>Where are we now ?</source>
+        <target>Where are we now ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a43f25a9ac40e8e2441ff0be7a36b8e5d15534df" datatype="html">
+        <source>Country</source>
+        <target>Country</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ae797460f17fe72086256ec5e2da35ddc6e1614" datatype="html">
+        <source>Region</source>
+        <target>Region</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c7012b5a926b32d9e45fefdcc8a1a3cb6f023d0" datatype="html">
+        <source>City</source>
+        <target>City</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caf9f615a1febc1d21b7ea683cc3c4bf04dc84fb" datatype="html">
+        <source>Home Address</source>
+        <target>Home Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8056cf5c415c35bb50b445d4aeb825f949267644" datatype="html">
+        <source>Number of the building</source>
+        <target>Number of the building</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11b6f2ab5692a97666657dbfcf0dd866d16f587d" datatype="html">
+        <source>Name 3 unrelated objects and remember them for later</source>
+        <target>Name 3 unrelated objects and remember them for later</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bfc60f558899b49e1b135f42a7c438a571ec303" datatype="html">
+        <source>First object</source>
+        <target>First object</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="907fe8071c87a47fede37547ef938d39cb554134" datatype="html">
+        <source>Second object</source>
+        <target>Second object</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f08223e9a06c73b81c4e72e1b2480c7797915cc6" datatype="html">
+        <source>Third object</source>
+        <target>Third object</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b803ed8dd7e59c411393a0ea161b244cd4d4b062" datatype="html">
+        <source>Count backward from 100 by sevens</source>
+        <target>Count backward from 100 by sevens</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d1f6c6f01e7494f323ba69c998bbaa74f831ddd5" datatype="html">
+        <source>First number</source>
+        <target>First number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1060d74832e7bbd1f2ddc40cac20556d7b7bc72b" datatype="html">
+        <source>Second number</source>
+        <target>Second number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5bd06ef75684b18297a3d91e402e7b6494481e32" datatype="html">
+        <source>Third number</source>
+        <target>Third number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="505178cebc64c71ce72856491cc0c3ce122e4ff0" datatype="html">
+        <source>Fourth number</source>
+        <target>Fourth number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6059a280159f7aaa8cd9ae7c60fdfc1d73ecaa1c" datatype="html">
+        <source>Fifth number</source>
+        <target>Fifth number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3a97822acb71a2a0bddc7359b0feb12fe7f52c3e" datatype="html">
+        <source>Name the three things asked to remember earlier</source>
+        <target>Name the three things asked to remember earlier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51f4c893942ce5371c0b833a191630f5fcc29679" datatype="html">
+        <source> Name two things that you use for writing</source>
+        <target>Name two things that you use for writing</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="901dfd9734298649a323f1845313a789186d1c38" datatype="html">
+        <source>Repeat the phrase &quot;No ifs, ands, or buts&quot;</source>
+        <target>Repeat the phrase &quot;No ifs, ands, or buts&quot;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26f41868653ddafc8662aebe2f177e93d5533f36" datatype="html">
+        <source>Repeat Phrase</source>
+        <target>Repeat Phrase</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11d846e372b630883fd2e7c08f23aa9a359acc7c" datatype="html">
+        <source>Follow next instructions:</source>
+        <target>Follow next instructions:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a5d3f5e58a5947b3c24b2524bd780716d8c19f8" datatype="html">
+        <source>Take the paper in your right hand</source>
+        <target>Take the paper in your right hand</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f34d3bceda627c64b9a06c53fd5a1c0bd6f42541" datatype="html">
+        <source>Fold it in half</source>
+        <target>Fold it in half</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95d8bcb04036b86e96cb45251b115ef164466bd8" datatype="html">
+        <source>Put it on the floor</source>
+        <target>Put it on the floor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61526383cc87997ee2d2045c8745795c46285cb6" datatype="html">
+        <source>Close your eyes</source>
+        <target>Close your eyes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1b41cbca612ff4d63ea23b5a91e3f2093f79a9f" datatype="html">
+        <source>Make up and write a sentence about anything with the length of 5 words</source>
+        <target>Make up and write a sentence about anything with the length of 5 words</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0673a5012b1381183de76490120e02a7e18dff96" datatype="html">
+        <source>Sentence</source>
+        <target>Sentence</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bac439a77dc9253f443b182406b14e0dbf7a7c27" datatype="html">
+        <source>Please copy this picture</source>
+        <target>Please copy this picture</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31585351f1c2fd385b2e4303531a46931cde13af" datatype="html">
+        <source>Picture has been successfully drawn</source>
+        <target>Picture has been successfully drawn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <target>Submit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmse/mmse.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="294b9fe3e7613be7fd52b470f5899654f4a6231b" datatype="html">
+        <source>Score: <x id="INTERPOLATION" equiv-text="{{userTestDetails.score}}"/></source>
+        <target>Score: <x id="INTERPOLATION" equiv-text="{{userTestDetails.score}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmseresult/mmseresult.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3ea2ffcd3b045e0faddd9bec331cc931ecc24e9" datatype="html">
+        <source>Description: <x id="INTERPOLATION" equiv-text="{{userTestDetails.description }}"/></source>
+        <target>Description: <x id="INTERPOLATION" equiv-text="{{userTestDetails.description }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/mmseresult/mmseresult.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f515413c7c98948c9fb8456cb3c64cee559825ab" datatype="html">
+        <source>My Activity</source>
+        <target>My Activity</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3fb949e6f6f5616f398a30f619d59473931edaa" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>description<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+        "/> MMSE Test</source>
+        <target><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>description<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+        "/> MMSE Test</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b71d79387b1696a772c6c432056aaab58f18d210" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>done<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+        "/> MMSE Test Result</source>
+        <target><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>done<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+        "/> MMSE Test Result</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7eec194fdb5177fb2a2b67ddfd1a5c71a943eb9d" datatype="html">
+        <source>Courses</source>
+        <target>Courses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f84574897019278c0e6299b5198d9b149d9514c2" datatype="html">
+        <source>Name: <x id="INTERPOLATION" equiv-text="{{userDetails.name}}"/> <x id="INTERPOLATION_1" equiv-text="{{userDetails.surname}}"/></source>
+        <target>Name: <x id="INTERPOLATION" equiv-text="{{userDetails.name}}"/> <x id="INTERPOLATION_1" equiv-text="{{userDetails.surname}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26153170816801cb46612cacd15d83c139978542" datatype="html">
+        <source>Username: <x id="INTERPOLATION" equiv-text="{{userDetails.userName}}"/></source>
+        <target>Username: <x id="INTERPOLATION" equiv-text="{{userDetails.userName}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49fd412ea90e21ed5c0689b3ecabcaba50c94f8d" datatype="html">
+        <source>Email: <x id="INTERPOLATION" equiv-text="{{userDetails.email }}"/></source>
+        <target>Email: <x id="INTERPOLATION" equiv-text="{{userDetails.email }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/patientAccount/shared/sidebar-patient/sidebar-patient.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

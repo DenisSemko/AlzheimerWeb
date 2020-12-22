@@ -1,0 +1,32 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 500px;
+
+    margin: auto;
+
+    padding-top: 50px;
+}
+.notes-list {
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+app-notes-list {
+    display: block;
+    margin-bottom: 25px;
+}
+mat-form-field {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.add-note-button {
+    position: fixed;
+    bottom: 20px;
+    width: 500px;
+    border-radius: 0;
+    height: 48px;
+    font-size: 19px;
+    box-shadow: 0px 0px 15px 5px rgba(#b5cef5, 0.2);
+}

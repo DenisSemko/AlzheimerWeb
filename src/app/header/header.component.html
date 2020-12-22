@@ -1,0 +1,31 @@
+    <mat-toolbar class="nav">
+        <span>
+        <a class="imgLogo" routerLink="/" routerLinkActive="active">
+        <img src="/assets/img/logo.png" class="logo">MindCare
+        </a>
+        <a class="statistics" id="statistics" routerLink="/charts" routerLinkActive="active" i18n>STATISTICS</a>
+        <a class="contact" id="contact" routerLink="/contact-us" i18n>CONTACT</a>
+        </span>
+        <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+        <ng-container *ngFor="let language of languageList">
+            <!--<a href="/{{language.code}}/"> -->
+                <button mat-button (click)="change()">
+                    {{language.label}}
+                </button>
+            <!--</a> -->
+        </ng-container>
+        <!-- <ng-container>
+            <button mat-button>
+                English
+            </button>
+            <button mat-button (click)="changeUkr()">
+                Ukr
+            </button>
+        </ng-container> -->
+        <a class="reg" routerLink="/registration" routerLinkActive="active" i18n>REGISTRATION</a>
+        <a class="log" routerLink="/login" routerLinkActive="active" i18n>LOGIN</a>
+        </div>
+    </mat-toolbar>
+
+
+  

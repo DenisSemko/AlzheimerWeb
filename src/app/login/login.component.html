@@ -1,0 +1,32 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <a class="imgLogo" routerLink="/" routerLinkActive="active">
+    <img src="/assets/img/logo.png" class="logo">MindCare
+    </a>
+
+    <mat-card class="box">
+      <mat-card-header>
+        <mat-card-title i18n>Log in</mat-card-title>
+      </mat-card-header>
+  
+      <form #form = 'ngForm' class="example-form" autocomplete="off" (submit)="onSubmit(form)">
+        <mat-card-content>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Username" #Username="ngModel" name="Username" [(ngModel)]="formModel.Username" required i18n-placeholder>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Password" matInput [type]="hide ? 'password' : 'text'" #PasswordHash="ngModel" name="Password" [(ngModel)]="formModel.PasswordHash" required i18n-placeholder>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </button>
+          </mat-form-field>
+            <mat-checkbox [checked] = "myModel" (change)="onChange($event)">
+            </mat-checkbox>
+        </mat-card-content>
+        <button mat-stroked-button color="accent" class="btn-block" i18n>Log in</button>
+        <br><br>
+        <a class="router" routerLink="/registration" routerLinkActive="active" i18n>Don't have an account yet? Go to Registration Page!</a>
+      </form>
+    </mat-card>
+  
+  </div>

@@ -1,0 +1,58 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <a class="imgLogo" routerLink="/" routerLinkActive="active">
+    <img src="/assets/img/logo.png" class="logo">MindCare
+    </a>
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title i18n>Register</mat-card-title>
+    </mat-card-header>
+    <form class="example-form" [formGroup]="service.formModel" (submit)="onSubmit()" autocomplete="off">
+
+      <mat-card-content>
+        <div fxFlex="50%">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Name" formControlName="Name" required i18n-placeholder>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Surname" formControlName="Surname" required i18n-placeholder>
+        </mat-form-field>
+      </div>
+      <div fxFlex="50%">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Username" formControlName="Username" required i18n-placeholder>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" formControlName="Email" required i18n-placeholder>
+          <label class="text-danger" *ngIf="service.formModel.get('Email').errors?.email">Invalid email address!</label>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input placeholder="Password" matInput [type]="hide ? 'password' : 'text'" formControlName="PasswordHash" required i18n-placeholder>
+          <label class="text-danger" *ngIf="service.formModel.get('PasswordHash').errors?.minlength">Minimum length is 8!</label>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" required>
+          <mat-label i18n>Choose a role...</mat-label>
+          <mat-select formControlName="UserType">
+            <mat-option [value]="1" i18n>
+              Doctor
+            </mat-option>
+            <mat-option [value]="2" i18n>
+              Patient
+             </mat-option>
+          </mat-select>
+        </mat-form-field>
+        </div>
+      </mat-card-content>
+
+      <button mat-stroked-button color="accent" class="btn-block" i18n>Register</button>
+      <br><br>
+      <a class="router" routerLink="/login" routerLinkActive="active" i18n>Already have an account? Go to Login Page!</a>
+
+    </form>
+  </mat-card>
+</div>
